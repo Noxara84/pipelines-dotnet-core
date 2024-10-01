@@ -13,9 +13,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: PartsUnlimited-aspnet45
+
       
     steps:
     - name: Main
