@@ -18,11 +18,8 @@ jobs:
         working-directory: PartsUnlimited-aspnet45
       
     steps:
-    - name: Content list
-      uses: enricomarino/actions@v2
-      with:
-        # The folder to inspect
-        source: .
+    - name: Main
+      run: ls
     - uses: actions/checkout@v4
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
